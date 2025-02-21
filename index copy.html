@@ -24,51 +24,77 @@
             background: white;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
         }
+
+
+        /* Profile Image Styling */
+        .profile-img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 150px; /* Adjust size as needed */
+            height: 200px;
+            border-radius: 0%; /* Makes it circular */
+            border: 3px solid white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Container for Main Content */
+        .container {
+            margin-top: 100px;
+            padding: 20px;
+        }
+
+        /* Contact Info */
+        .contact {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        /* Button Styling */
         .btn {
+            display: inline-block;
             padding: 10px 20px;
+            margin-top: 10px;
             background: #333;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            display: inline-block;
-            margin-top: 10px;
         }
+
         .btn:hover {
             background: #555;
         }
-
-
-.profile-img {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 150px; /
-    height: 200px;
-    border-radius: 0%; 
-    border: 3px solid white;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-}
-
     </style>
 </head>
 <body>
-    <img src="9a1f2ee9-2d54-47f5-8c98-c813b98985ba.jpg">
     <header>
         <h1>We Can Develop Together Your Website</h1>
-    </header>
+      </header>
+  
+    <!-- Profile Image -->
+    <img src="9a1f2ee9-2d54-47f5-8c98-c813b98985ba.jpg" alt="My Photo" class="profile-img">
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm [Your Name], a passionate web developer.</p>
-    </section>
+    <!-- Main Content -->
+    <div class="container">
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +123 456 7890</p>
+            <a href="mailto:your.email@example.com" class="btn">Email Me</a>
+        </section>
+        <h1>Hello, I'm [Your Name] 👋</h1>
+        <p>Web Developer | Designer | Tech Enthusiast</p>
+        <p>Passionate about building clean and responsive websites.</p>
+       
+        <div class="contact">
+            <p>Email: your.email@example.com</p>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>Phone: +123 456 7890</p>
-        <a href="mailto:your.email@example.com" class="btn">Email Me</a>
-    </section>
+            <a href="0041782544342" class="btn">Call Me </a>
+            <a href="halil@onay.ch" class="btn">Mail to me </a>
+        </div>
+    </div>
 
 </body>
 </html>
